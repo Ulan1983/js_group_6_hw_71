@@ -1,0 +1,59 @@
+.main {
+    margin-top: 30px;
+}
+
+.input input {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+}
+
+.addedDishes {
+    border: 1px solid #282c34;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 0 20px 0 0;
+    border-radius: 10px;
+}
+
+.addedDishes img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.spans span {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.spans {
+    width: 90%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.buttons b {
+    margin: 20px;
+    cursor: pointer;
+    color: darkred;
+}
+
+.links {
+    text-decoration: none;
+    color: #282c34;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.links:hover {
+    background-color: darkred;
+    color: white;
+}
